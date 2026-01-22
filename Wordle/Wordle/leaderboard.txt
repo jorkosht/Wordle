@@ -1,0 +1,5 @@
+jorkosht 4 4
+georgi 2 2
+danny 1 1
+vladimir 1 1
+mitko 1 1
