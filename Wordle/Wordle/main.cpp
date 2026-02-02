@@ -846,6 +846,7 @@ bool handleMainMenu(std::fstream& usersFile, char* username, char* password)
         case 3:
             return false;
         default:
+            std::cout << "Invalid choice!" << std::endl;
             return handleMainMenu(usersFile, username, password);
     }
 }
