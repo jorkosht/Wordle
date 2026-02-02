@@ -22,7 +22,7 @@ const int TRIES = 6;
 const int LETTERS = 26;
 const int USERS = 1024;
 const int MAX_LEN = 256;
-const int MAX_WORDS = 10000;
+const int MAX_WORDS = 20000;
 
 const char GREEN[] = "\x1b[32m";
 const char YELLOW[] = "\x1b[33m";
