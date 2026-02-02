@@ -837,13 +837,6 @@ bool handleMainMenu(std::fstream& usersFile, char* username, char* password)
     
     int choice = choose - '0';
 
-    
-    if (choice < 1 || choice > 3)
-    {
-        std::cout << "Invalid input" << std::endl;
-        return handleMainMenu(usersFile, username, password);
-    }
-    
     switch (choice)
     {
         case 1:
